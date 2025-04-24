@@ -28,7 +28,7 @@ Built for remote teams, trainers, or documentation leads who need a fast and rep
 
 ---
 
-Made with 💡 by #EliteTheOctoDog 🐙🐶 [LinkedIn →](https://linkedin.com/in/JoeNetherland)
+Made with 💡 by #EliteTheOctoDog 🐙🐶™ [LinkedIn →](https://linkedin.com/in/JoeNetherland)
 
 
 <details>
