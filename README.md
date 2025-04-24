@@ -19,7 +19,7 @@ A Python-based tool to help remote teams generate clean, structured Standard Ope
 1. Download or clone the repository.
 2. Open your terminal and run:
    ```bash
-   python sop_generator.py
+   sop_generator.py
 3. Follow the prompts to enter SOP details.
 4. A Markdown file will be created in the same folder.
 
