@@ -1,5 +1,7 @@
 # SopGenerator
 
+_Applied learning prototype. Built with Python using AI assistance. Not a production system._
+
 A Python-based tool to help remote teams generate clean, structured Standard Operating Procedures (SOPs) for recurring tasks and workflows.
 
 ## 🔍 What It Does
