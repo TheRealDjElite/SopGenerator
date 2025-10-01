@@ -1,14 +1,14 @@
 # SOP Generator
 
-⁂ _Applied learning prototype. Built with Python using AI assistance. Not a production system._
+⚠️ Applied learning prototype. Built with Python as a learning project. Not for production use.
 
-A Python-based tool to help remote teams generate clean, structured Standard Operating Procedures (SOPs) for recurring tasks and workflows.
+A Python-based tool that generates clean, structured Standard Operating Procedures (SOPs) for recurring tasks and workflows.
 
 ## 🔍 What It Does
-- Walks users through creating SOPs via command-line prompts
-- Outputs each SOP as a Markdown `.md` file with consistent formatting
-- Supports clear, reusable documentation for remote teams
-- Helps teams maintain operational consistency and readiness
+- Walks users through creating SOPs via command-line prompts  
+- Outputs each SOP as a Markdown `.md` file with consistent formatting  
+- Supports clear, reusable documentation for teams  
+- Helps maintain operational consistency and readiness 
 
 ## 🧰 Tools Used
 - Python 3
@@ -26,7 +26,7 @@ A Python-based tool to help remote teams generate clean, structured Standard Ope
 4. A Markdown file will be created in the same folder.
 
 ## ✅ Use Case
-Built for remote teams, trainers, or documentation leads who need a fast and repeatable way to generate clear SOPs for tasks, tools, and processes.
+Designed as a demo for generating SOPs quickly and consistently. Shows how Python can support process documentation in a repeatable, portable format.
 
 ---
 
