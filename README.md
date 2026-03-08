@@ -1,6 +1,6 @@
 # SOP Generator
 
-⚠️ Applied learning prototype. Built with Python as a learning project. Not for production use.
+⚠️ Skill-building project demonstrating applied Python for automated SOP generation supporting QA, training, and workflow documentation.
 
 A Python-based tool that generates clean, structured Standard Operating Procedures (SOPs) for recurring tasks and workflows.
 
