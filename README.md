@@ -6,25 +6,25 @@ Outputs formatted SOP documents in Markdown for use in training, process documen
 
 ## 🔍 What It Does
 
-- Collects structured workflow input via command line prompts  
-- Generates standardized SOP content from provided inputs  
-- Outputs SOPs as Markdown `.md` files  
-- Supports consistent documentation for repeatable operational processes  
+- Prompts for SOP title, summary, tools, step-by-step instructions, responsible role, and frequency
+- Requires key fields so SOPs aren't saved incomplete
+- Numbers steps automatically and adds a creation date
+- Saves each SOP as a Markdown `.md` file named after its title
 
 ## 🧰 Tools Used
 
-- Python 3 (AI-assisted development)  
-- Standard libraries (`datetime`, `os`)  
+- Python 3 (AI-assisted development)
+- Standard libraries (`datetime`, `os`)
 
 ## 📁 File Overview
 
-- `sop_generator.py` - Script that captures inputs and generates formatted SOP documents  
+- `sop_generator.py` - Script that captures inputs and generates formatted SOP documents
 
 ## ▶ How to Use It
 
-1. Run `sop_generator.py` in a Python environment  
-2. Enter workflow details when prompted  
-3. SOP is generated as a Markdown file in the working directory  
+1. Run `sop_generator.py` in a Python environment
+2. Enter workflow details when prompted (type `done` to finish entering steps)
+3. The SOP is saved as a Markdown file in the working directory
 
 ## 📌 Purpose
 
