@@ -1,4 +1,3 @@
-import os
 from datetime import datetime
 
 def get_input(prompt, required=True):
@@ -35,7 +34,7 @@ def generate_markdown(title, summary, tools, steps, role, frequency):
 """
 
 def main():
-    print("\n--- Remote Team SOP Generator ---\n")
+    print("\n--- SOP Generator ---\n")
 
     title = get_input("Enter SOP Title: ")
     summary = get_input("Enter a short summary of the task: ")
@@ -46,7 +45,10 @@ def main():
     while True:
         step = input(f"Step {len(steps_list) + 1}: ").strip()
         if step.lower() == 'done':
-            break
+            if steps_list:
+                break
+            print("At least one step is required.")
+            continue
         if step:
             steps_list.append(f"{len(steps_list) + 1}. {step}")
 
