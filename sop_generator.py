@@ -1,3 +1,5 @@
+import os
+import re
 from datetime import datetime
 
 def get_input(prompt, required=True):
@@ -9,7 +11,16 @@ def get_input(prompt, required=True):
             return user_input
 
 def format_filename(title):
-    return title.lower().replace(" ", "_").replace("/", "-") + ".md"
+    # Keep letters and numbers only so the filename works on Windows, Mac, and Linux
+    name = re.sub(r"[^a-z0-9]+", "_", title.lower()).strip("_") or "sop"
+    filename = f"{name}.md"
+
+    # Don't overwrite an existing SOP with the same title
+    count = 2
+    while os.path.exists(filename):
+        filename = f"{name}_{count}.md"
+        count += 1
+    return filename
 
 def generate_markdown(title, summary, tools, steps, role, frequency):
     now = datetime.now().strftime("%Y-%m-%d")
