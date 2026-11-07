@@ -9,12 +9,12 @@ Outputs formatted SOP documents in Markdown for use in training, process documen
 - Prompts for SOP title, summary, tools, step-by-step instructions, responsible role, and frequency
 - Requires every field, including at least one step, so SOPs aren't saved incomplete
 - Numbers steps automatically and adds a creation date
-- Saves each SOP as a Markdown `.md` file named after its title
+- Saves each SOP as a Markdown `.md` file named after its title, without overwriting existing SOPs
 
 ## 🧰 Tools Used
 
 - Python 3 (AI-assisted development)
-- Standard library (`datetime`)
+- Standard library (`datetime`, `os`, `re`)
 
 ## 📁 File Overview
 
