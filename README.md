@@ -11,6 +11,12 @@ Outputs formatted SOP documents in Markdown for use in training, process documen
 - Numbers steps automatically and adds a creation date
 - Saves each SOP as a Markdown `.md` file named after its title, without overwriting existing SOPs
 
+## 📊 Sample Output
+
+The script prompts for each field, then saves a formatted SOP named after its title.
+
+![SOP generator prompts and the SOP file it produces](images/sop_example.png)
+
 ## 🧰 Tools Used
 
 - Python 3 (AI-assisted development)
@@ -19,6 +25,8 @@ Outputs formatted SOP documents in Markdown for use in training, process documen
 ## 📁 File Overview
 
 - `sop_generator.py` - Script that captures inputs and generates formatted SOP documents
+- `examples/weekly_case_tracker_reconciliation.md` - Sample SOP created by the script
+- `images/sop_example.png` - Screenshot of the prompts and the generated SOP
 
 ## ▶ How to Use It
 
