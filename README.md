@@ -30,7 +30,7 @@ The script prompts for each field, then saves a formatted SOP named after its ti
 
 ## ▶ How to Use It
 
-1. Run `sop_generator.py` in a Python environment
+1. 1. Run `python sop_generator.py`
 2. Enter workflow details when prompted (type `done` to finish entering steps)
 3. The SOP is saved as a Markdown file in the working directory
 
