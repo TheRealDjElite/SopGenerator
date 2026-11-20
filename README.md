@@ -1,8 +1,8 @@
 # 🧰 SOP Generator
 
-Python-based tool for generating structured Standard Operating Procedures (SOPs) from user input. Designed to support consistent documentation of repeatable workflows across operational and team environments.
+Python tool for writing SOPs in a consistent format from a short set of prompts. Built for teams who fix a process and need the new steps written down the same way every time, so training and handoffs don't depend on who wrote the document.
 
-Outputs formatted SOP documents in Markdown for use in training, process documentation, and workflow standardization.
+The script asks for a title, summary, tools, steps, responsible role, and frequency, won't save until every field is filled in, and writes the result as a numbered, dated Markdown file.
 
 ## 🔍 What It Does
 
@@ -36,4 +36,4 @@ The script prompts for each field, then saves a formatted SOP named after its ti
 
 ## 📌 Purpose
 
-Supports structured documentation workflows by standardizing SOP creation for operational processes, training materials, and repeatable task definitions. Focuses on consistency, clarity, and reducing variation in how workflows are documented.
+Built from process improvement work, where a fixed workflow only stays fixed once the new steps are written down and followed the same way by everyone. The sample SOP in `examples/` covers a weekly case tracker reconciliation.
