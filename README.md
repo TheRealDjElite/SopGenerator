@@ -29,7 +29,7 @@ See [`USE_CASE_AND_SIPOC.md`](USE_CASE_AND_SIPOC.md) for the use case (main flow
 ## 📁 File Overview
 
 - `sop_generator.py` - Script that captures inputs and generates formatted SOP documents
-- `examples/weekly_case_tracker_reconciliation.md` - Sample SOP created by the script
+- [`examples/weekly_case_tracker_reconciliation.md`](examples/weekly_case_tracker_reconciliation.md) - Sample SOP created by the script
 - `images/sop_example.png` - Screenshot of the prompts and the generated SOP
 - `USE_CASE_AND_SIPOC.md` - Use case with main and exception flows, business rules, and SIPOC
 
@@ -41,4 +41,4 @@ See [`USE_CASE_AND_SIPOC.md`](USE_CASE_AND_SIPOC.md) for the use case (main flow
 
 ## 📌 Purpose
 
-Built from process improvement work, where a fixed workflow only stays fixed once the new steps are written down and followed the same way by everyone. The sample SOP in `examples/` covers a weekly case tracker reconciliation.
+Built from process improvement work, where a fixed workflow only stays fixed once the new steps are written down and followed the same way by everyone. The [sample SOP](examples/weekly_case_tracker_reconciliation.md) covers a weekly case tracker reconciliation.

@@ -65,6 +65,7 @@ How a process owner uses the SOP Generator to document a fixed process, written 
 | | Frequency | | | |
 
 **Process start:** a fixed or changed process needs written steps.
+
 **Process end:** the SOP file is saved and ready to share.
 
 See [`examples/weekly_case_tracker_reconciliation.md`](examples/weekly_case_tracker_reconciliation.md) for an SOP produced by the main flow.
