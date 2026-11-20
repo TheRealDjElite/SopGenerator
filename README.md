@@ -17,6 +17,10 @@ The script prompts for each field, then saves a formatted SOP named after its ti
 
 ![SOP generator prompts and the SOP file it produces](images/sop_example.png)
 
+## 📘 Use Case and SIPOC
+
+See [`USE_CASE_AND_SIPOC.md`](USE_CASE_AND_SIPOC.md) for the use case (main flow, exception flows, and business rules) and a SIPOC showing suppliers, inputs, process steps, outputs, and customers for the SOP process.
+
 ## 🧰 Tools Used
 
 - Python 3 (AI-assisted development)
@@ -27,6 +31,7 @@ The script prompts for each field, then saves a formatted SOP named after its ti
 - `sop_generator.py` - Script that captures inputs and generates formatted SOP documents
 - `examples/weekly_case_tracker_reconciliation.md` - Sample SOP created by the script
 - `images/sop_example.png` - Screenshot of the prompts and the generated SOP
+- `USE_CASE_AND_SIPOC.md` - Use case with main and exception flows, business rules, and SIPOC
 
 ## ▶ How to Use It
 
