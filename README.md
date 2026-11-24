@@ -28,14 +28,14 @@ See [`USE_CASE_AND_SIPOC.md`](USE_CASE_AND_SIPOC.md) for the use case (main flow
 
 ## 📁 File Overview
 
-- `sop_generator.py` - Script that captures inputs and generates formatted SOP documents
+- [`sop_generator.py`](sop_generator.py) - Script that captures inputs and generates formatted SOP documents
 - [`examples/weekly_case_tracker_reconciliation.md`](examples/weekly_case_tracker_reconciliation.md) - Sample SOP created by the script
-- `images/sop_example.png` - Screenshot of the prompts and the generated SOP
-- `USE_CASE_AND_SIPOC.md` - Use case with main and exception flows, business rules, and SIPOC
+- [`images/sop_example.png`](images/sop_example.png) - Screenshot of the prompts and the generated SOP
+- [`USE_CASE_AND_SIPOC.md`](USE_CASE_AND_SIPOC.md) - Use case with main and exception flows, business rules, and SIPOC
 
 ## ▶ How to Use It
 
-1. Run `python sop_generator.py`
+1. Run [`sop_generator.py`](sop_generator.py): `python sop_generator.py`
 2. Enter workflow details when prompted (type `done` to finish entering steps)
 3. The SOP is saved as a Markdown file in the working directory
 
